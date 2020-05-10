@@ -1,0 +1,23 @@
+.side-bar
+  .side-bar__username
+    .top-items
+      .top-items__name
+        test
+      .top-items__icon
+        = link_to "#", class: "item__btn" do
+          = icon('far', 'edit')
+        = link_to "#", class: "item__btn" do
+          = icon('fas', 'cog')
+          
+  .side-bar__group-list
+    .group
+      .group__name
+        techcamp
+      .group__message
+        まだメッセージがありません
+    -# 複数表示テスト
+    .group
+      .group__name
+        techcamp
+      .group__message
+        まだメッセージがありません
