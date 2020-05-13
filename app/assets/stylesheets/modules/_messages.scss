@@ -102,7 +102,7 @@ body {
   }
 
   .group-edit{
-    color: $mainBlueColor;
+    color: $light_blue;
     margin: 28px 40px 0 0;
     padding: 0 20px;
     height: 40px;
@@ -113,7 +113,7 @@ body {
   .edit__btn{
     font-size: 16px;
     text-decoration: none;
-    color: $mainBlueColor;
+    color: $light_blue;
     line-height: 40px;
   }
 
@@ -190,7 +190,7 @@ body {
         border-radius: 0%;
         height: 50px;
         width: 100px;
-        background-color: $mainBlueColor;
+        background-color: $light_blue;
         color: $mainWhiteColor;
       }
     }
