@@ -121,6 +121,7 @@ body {
     height: calc(100% - 190px);
     background-color: #fafafa;
     padding-top: 35px;
+    overflow: scroll;
   }
 
   .message-contents{
