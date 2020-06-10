@@ -169,12 +169,14 @@ body {
     .input{
       display: flex;
       height: 50px;
-      width: 80%;
+      width: 100%;
+      padding: 0 40px;
     }
 
     .input-box{
       position: relative;
       margin-right: 15px;
+      width: calc(100vw - 115px);
 
       &__text{
         display: inline-block;
@@ -202,6 +204,7 @@ body {
         width: 100px;
         background-color: $light_blue;
         color: $mainWhiteColor;
+        flex-shrink: 0;
       }
     }
   }
